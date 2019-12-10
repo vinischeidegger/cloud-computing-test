@@ -1,6 +1,34 @@
-<html>
-<header><title>This is Vinicius Scheidegger's page</title></header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#ff4970">
+  <!-- Mobile header color Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#ff4970">
+  <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <title>This is Vinicius Scheidegger's page</title>
+</head>
 <body>
-This is our first automated build.
+<!-- DEMO Project page content STARTS -->
+
+<div id="ytbg" data-youtube="https://www.youtube.com/watch?v=eEpEeyqGlxA"></div>
+
+  <div class="splash">
+    <div class="splash__content">
+      <div class="splash-title">
+          <h1 class="splash-overview__heading">This is our first automated build!
+          </h1>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+        $('[data-youtube]').youtube_background();
+    });
+  </script>
+
 </body>
 </html>
